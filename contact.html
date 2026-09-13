@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VeloxWebStudio | Contact</title>
+  <meta name="description" content="Choose how to send your VeloxWebStudio website requirements." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-DTOb8u5l9vP0f8TtvgPKQ4A+IlR1VDyDLo6J9n/B3KIW0aH1YHYXJDZaj6r6pPS9NACLbzg5cmEFi73WbOkg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="requirements.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="index.html" aria-label="VeloxWebStudio">
+        <span class="brand-mark">
+          <img src="assets/logo.jpg" alt="VeloxWebStudio logo" class="logo-image" />
+        </span>
+        <span class="brand-text">VeloxWebStudio</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-panel">
+        <ul class="nav-links">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#how-it-works">How Order It</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+        </ul>
+        <a class="nav-start" href="requirements.html">
+          <span>Get Started</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="requirements-page">
+    <section class="requirements-wrap">
+      <div class="container requirements-container">
+        <div class="requirements-progress">
+          <div class="progress-step">
+            <span class="progress-no">01</span>
+            <span class="progress-label">Requirements</span>
+          </div>
+          <div class="progress-line"><span></span></div>
+          <div class="progress-step active">
+            <span class="progress-no">02</span>
+            <span class="progress-label">Contact</span>
+          </div>
+        </div>
+
+        <div class="contact-card requirements-card">
+          <div class="requirements-heading contact-heading">
+            <span class="section-kicker dark"><i class="fa-solid fa-bolt"></i> VeloxWebStudio</span>
+            <h1>Your Project Details Are Ready 🚀</h1>
+            <p>Choose your preferred way to contact VeloxWebStudio and send us your requirements.</p>
+          </div>
+
+          <section class="contact-grid">
+            <article class="contact-option">
+              <div class="contact-option-icon telegram-icon">
+                <i class="fa-brands fa-telegram-plane"></i>
+              </div>
+              <h3>Telegram</h3>
+              <p>@Lathi_404<br />Chat with us directly</p>
+              <button class="btn btn-primary btn-block contact-btn" data-contact="telegram">
+                <span>Continue with Telegram →</span>
+              </button>
+              <small class="contact-help">Telegram will open with your project message prepared. Review it and tap Send.</small>
+            </article>
+
+            <article class="contact-option">
+              <div class="contact-option-icon instagram-icon">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <h3>Instagram</h3>
+              <p>@veloxwebstudio<br />Contact us through Instagram</p>
+              <button class="btn btn-primary btn-block contact-btn" data-contact="instagram">
+                <span>Continue with Instagram →</span>
+              </button>
+              <small class="contact-help">Your project message has been copied. Open Instagram → tap Message → paste the message → Send.</small>
+            </article>
+
+            <article class="contact-option">
+              <div class="contact-option-icon gmail-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <h3>Email</h3>
+              <p>lathisanlathi12@gmail.com<br />Send your project requirements by email</p>
+              <button class="btn btn-primary btn-block contact-btn" data-contact="gmail">
+                <span>Continue with Email →</span>
+              </button>
+              <small class="contact-help">Your email draft will open with your project details already prepared.</small>
+            </article>
+          </section>
+
+          <section class="message-panel" id="messagePanel">
+            <div class="message-panel-head">
+              <span><i class="fa-solid fa-copy"></i> Your Project Request</span>
+              <button class="btn btn-outline-light small-btn" id="copyOrderMessage">
+                <span>Copy Message</span>
+              </button>
+            </div>
+            <div class="project-message-card">
+              <div class="project-message-card-title">We've prepared your website requirements below. Choose a contact option to send them to us.</div>
+              <pre id="orderMessage" class="message-preview" aria-label="Project request preview" readonly></pre>
+            </div>
+          </section>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand footer-logo" href="index.html">
+          <span class="brand-mark">
+            <img src="assets/logo.jpg" alt="VeloxWebStudio logo" class="logo-image" />
+          </span>
+          <span class="brand-text">VeloxWebStudio</span>
+        </a>
+        <p>Professional website templates made simple for businesses, freelancers and creators worldwide.</p>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <ul>
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="index.html#how-it-works">How Order It</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="mailto:contact@veloxwebstudio.com">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-cta">
+        <a class="btn btn-outline-light footer-button" href="requirements.html">
+          <span>Back</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span class="footer-copy">© 2026 VeloxWebStudio. All rights reserved.</span>
+      <span class="footer-disclaimer">Frontend-only website template. Hosting, domain, backend development and third-party services are not included.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>
